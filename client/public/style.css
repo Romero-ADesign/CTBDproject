@@ -1,0 +1,293 @@
+@import "talwindcss/base"; 
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
+#root {
+    margin-top: 0px;
+    height: 100vh;
+  }
+
+  body {
+    margin-top: 0px;
+    background-color: #587B7F;
+  }
+
+
+
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.header {
+    background-color: #1E2019;
+    height: 200px
+}
+
+.user-info {
+    position: absolute;
+    right: 0;
+    padding-top: 3%;
+    padding-right: 4%;
+}
+
+.username {
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    margin: 40px;
+    padding-top: 30px
+
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    flex-wrap: wrap
+}
+
+.posts h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 20%;
+}
+
+.post {
+    padding: 5%;
+    width: 210px;
+}
+
+
+
+.post img {
+width: 250px;
+height: 200px;
+left: 123px;
+top: 90px;
+filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+
+}
+
+.post h2 {
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.profile-picture {
+    display: block;
+}
+
+.profile-picture-profilepage {
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -30px;
+  }
+
+
+
+.profile-picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-picture-container {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+}
+
+.username {
+    display: block;
+    text-align: center;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 320px;
+    background-color: #394032;
+    color: white;
+    font-size: 40px;
+    height: 100%;
+}
+
+.nav-bar li {
+    padding: 10%
+
+}
+
+.nav-bar li.post-project {
+    white-space: nowrap;
+}
+
+.tags {
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 8px;
+}
+
+.profileDetails {
+    position: block;
+    text-align: center;
+}
+
+.profileDetails h1 {
+    position: block;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 33px
+}
+
+.user-details {
+    background-color: #719B9F;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 70px;
+}
+
+
+.profilePosts {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePosts img {
+    width: 250px;
+    height: 200px;
+    left: 123px;
+    top: 90px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+}
+
+.profilePosts h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    padding-left: 20px;
+  }
+  
+  .container img {
+    width: 550px;
+    height: 500px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+  }
+
+
+  .postDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .postDetails h2 {
+    font-size: 40px;
+    align-self: flex-start;
+  }
+  
+  .postDetails p {
+    margin-bottom: 20px;
+  }
+  .difficulty {
+    display: flex;
+    align-items: center;
+  }
+  
+  .difficulty span {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .difficulty span::before {
+    content: "★";
+    color: gold;
+  }
+
+.formParent {
+    text-align: center;
+    padding: 15%
+}
+
+  .form {
+    display: inline-block;
+  }
+
+  .formParent h1 {
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 60px;
+}
+  
+button {
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button.delete {
+    background-color: red;
+    color: #fff;
+  }
+  
+  button.edit {
+    background-color: #fff;
+  }
+
+  .loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
